@@ -1,0 +1,31 @@
+{
+  "name": "smogger-backend",
+  "version": "1.0.0",
+  "description": "An API written in Express.js, ideated for posting photos about polluted areas in your zone ",
+  "main": "server.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node server",
+    "dev": "nodemon server "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-mongo-sanitize": "^2.0.2",
+    "express-rate-limit": "^5.2.6",
+    "helmet": "^4.4.1",
+    "hpp": "^0.2.3",
+    "joi": "^17.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.3",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "node-geocoder": "^3.27.0",
+    "nodemon": "^2.0.7",
+    "xss-clean": "^0.1.1"
+  }
+}
